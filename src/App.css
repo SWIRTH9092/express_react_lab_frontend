@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+img {
+  max-width: 30rem;
+}
+
+button {
+  font-size: 1.2rem;
+  border: 8px solid white;
+  background-color: light rgb(102, 100, 100);
+}
+.headshot {
+  max-width:10rem;
+  border-radius: 90px;
+
+}
