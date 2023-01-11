@@ -10,8 +10,14 @@ export const projectsLoader = async () => {
 }
 
 export const aboutLoader = async () => {
-    console.log("in aboutloader fetch")
     const response = await fetch (URL + "/about")
     const about = await response.json()
     return about
+}
+
+export const skillsLoader = async () => {
+    console.log("in skillsloader fetch")
+    const response = await fetch (URL + "/skills")
+    const skills = await response.json()
+    return skills
 }
